@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="30dp"
+    tools:context=".SmsActivity">
+
+
+    <EditText
+        android:id="@+id/sender_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="Mesajı Giriniz"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/receiver_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sender_message"
+        android:layout_marginTop="20dp"
+        android:hint="Telefon no giriniz"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/send_sms_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/receiver_phone_number"
+        android:layout_marginTop="30dp"
+        android:height="60dp"
+        android:background="@color/darkgray"
+        android:text="Gönder"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

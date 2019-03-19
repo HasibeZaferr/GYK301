@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GYK301</string>
+       
+    <string name="action_settings">Settings</string>
+       
+    <string name="record">Kayıt</string>
+       
+    <string name="stop">Durdur</string>
+
+</resources>
+
+
+
+

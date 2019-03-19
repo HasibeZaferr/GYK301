@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context=".MapActivity">
+
+
+    <ImageView
+        android:id="@+id/image_map"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+    <Button
+        android:id="@+id/open_map_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number_et"
+        android:layout_marginTop="30dp"
+        android:height="60dp"
+        android:background="@color/purple"
+        android:text="İstanbul'a Git"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

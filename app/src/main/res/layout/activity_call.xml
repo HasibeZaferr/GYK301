@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:layout_gravity="center"
+    android:layout_centerHorizontal="true"
+    tools:context=".CallActivity">
+
+    <EditText
+        android:id="@+id/phone_number_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:inputType="phone"
+        android:hint="Telefon Numarası Giriniz"/>
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number_et"
+        android:layout_marginTop="30dp"
+        android:height="60dp"
+        android:background="@color/red"
+        android:text="Ara"
+        android:textColor="@color/colorWhite" />
+</RelativeLayout>

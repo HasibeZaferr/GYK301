@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".VoiceActivity">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageRecord"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+    <LinearLayout
+        android:layout_below="@+id/imageRecord"
+        android:layout_margin="30dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/record_voice_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Kaydet"
+        android:textColor="@color/colorWhite" />
+
+
+
+    <Button
+        android:id="@+id/stop_voice_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Durdur"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/play_voice_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:text="Çal"
+        android:background="@color/lightgreen"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+</LinearLayout>
